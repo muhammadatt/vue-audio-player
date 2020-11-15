@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="text-center">
-    <img src="./assets/logo.png" class="w-24" style="margin: 0 auto">
+    <img src="https://vue-audioplayer-demo.s3.amazonaws.com/768px-Vue.js_Logo_2.svg.png" class="w-24" style="margin: 0 auto">
     <h1>Vue HTML5 Audio Player Demo</h1>
     <br /><br />
-    <audio-player url="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3" playerid="audio-player"> </audio-player>
+    <audio-player url="https://vue-audioplayer-demo.s3.amazonaws.com/Kalimba.mp3" playerid="audio-player"> </audio-player>
 
   </div>
 </template>
