@@ -4,7 +4,7 @@
     <h1>Vue HTML5 Audio Player Demo</h1>
     <br /><br />
     <audio-player url="https://vue-audioplayer-demo.s3.amazonaws.com/Kalimba.mp3" playerid="audio-player"> </audio-player>
-
+    <div class="text-sm mt-10">Sample Mp3 audio file courtesy of <a href="https://www.learningcontainer.com/sample-audio-file/">Learning Container</a></div>
   </div>
 </template>
 
