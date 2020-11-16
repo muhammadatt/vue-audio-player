@@ -1,10 +1,16 @@
 <template>
   <div id="app" class="text-center">
     <img src="https://vue-audioplayer-demo.s3.amazonaws.com/768px-Vue.js_Logo_2.svg.png" class="w-24" style="margin: 0 auto">
-    <h1>Vue HTML5 Audio Player Demo</h1>
-    <br /><br />
-    <audio-player url="https://vue-audioplayer-demo.s3.amazonaws.com/Kalimba.mp3" playerid="audio-player"> </audio-player>
-    <div class="text-sm mt-10">Sample Mp3 audio file courtesy of <a href="https://www.learningcontainer.com/sample-audio-file/">Learning Container</a></div>
+    
+    <h1 class="mt-5">Vue HTML5 Audio Player Demo</h1>
+      <div class="text-md mt-5"> Learn how I made this on <a href="https://medium.com/@MuhammadAtt/building-an-mp3-audio-player-in-vue-js-c5884207251c">Medium </a></div>
+    <div class="text-md mt-5">Download full demo code from <a href="https://github.com/muhammadatt/vue-audio-player">Github</a></div>
+
+    <audio-player class="mt-5" url="https://vue-audioplayer-demo.s3.amazonaws.com/Kalimba.mp3" playerid="audio-player"> </audio-player>
+    
+
+    <div class="text-xs mt-10">Copyright notice: Kalimba.mp3 courtesy of <a href="https://www.learningcontainer.com/sample-audio-file/">Learning Container</a></div>
+
   </div>
 </template>
 
